@@ -13,7 +13,7 @@ public class HadoopService {
 
     @PostConstruct
     public void init() throws IOException {
-        Configuration conf = new Configuration();
+      /*  Configuration conf = new Configuration();
         conf.addResource(new Path("conf/core-site.xml"));
         conf.addResource(new Path("conf/hdfs-site.xml"));
         FileSystem fileSystem = FileSystem.get(conf);
@@ -21,6 +21,6 @@ public class HadoopService {
         String dirName = "text";
         Path path = new Path(dirName);
         boolean rez = fileSystem.mkdirs(path);
-        fileSystem.close();
+        fileSystem.close();*/
     }
 }
